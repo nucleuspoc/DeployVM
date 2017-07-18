@@ -4,9 +4,6 @@
 
   tasks:
   - vsphere_guest:
-      vcenter_hostname: ukrdvmgvc001.dbpoc.uk
-      username: isibor@dbpoc.uk
-      password: Integration12
       validate_certs: no
       guest: jojjtestansible
       state: powered_on
