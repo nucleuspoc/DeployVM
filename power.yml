@@ -9,7 +9,7 @@
       password: Integration12
       validate_certs: no
       guest: jojjtestansible
-      state: powered_off
+      state: powered_on
       esxi:
         datacenter: Reading-Dev
         hostname: ukrdsesxi001.dbpoc.uk
