@@ -1,0 +1,16 @@
+- hosts: localhost
+  connection: local
+  gather_facts: True
+
+  tasks:
+  - vsphere_guest:
+      vcenter_hostname: ukrdvmgvc001.dbpoc.uk
+      username: isibor@dbpoc.uk
+      password: Integration12
+      validate_certs: no
+      guest: jojjtestansible
+      state: powered_off
+      esxi:
+        datacenter: Reading-Dev
+        hostname: ukrdsesxi001.dbpoc.uk
+
